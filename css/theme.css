@@ -1,0 +1,22 @@
+p {
+    max-width: 480px;
+}
+
+.big-bottom {
+    padding-bottom: 20px;
+}
+
+.row-contact ul {
+}
+
+#big-ass-text {
+    font-family: 'Lobster', cursive;
+    font-size: 112pt;
+    line-height: 112pt;
+
+    color: #00cc88;
+}
+
+#big-ass-text span {
+    color: #FF1493;
+}

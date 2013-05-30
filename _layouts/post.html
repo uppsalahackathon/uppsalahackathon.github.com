@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="span6 offset2">
+        <h2>{{ page.title }}</h2>{% if page.date %}
+        <em>{{ page.date | date_to_string }}</em>{% endif %}<br/>
+        <em>av: {{ page.author }}</em>
+    </div>
+</div>
+
+<div class="row big-bottom">
+    <div class="span6 offset2">
+        <a href="/">&larr; Start</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="span6 offset2">
+        {{ content }}
+    </div>
+</div>
